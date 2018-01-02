@@ -1,0 +1,19 @@
+{
+  "name": "typescript-na-pratica-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "./node_modules/.bin/tsc -w",
+    "server": "./node_modules/.bin/live-server ./public",
+    "dev": "./node_modules/.bin/concurrently \"npm run tsc\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/es6-promise": "0.0.33",
+    "concurrently": "^3.5.1",
+    "live-server": "^1.2.0",
+    "typescript": "^2.6.2"
+  }
+}

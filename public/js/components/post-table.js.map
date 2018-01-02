@@ -1,0 +1,1 @@
+{"version":3,"file":"post-table.js","sourceRoot":"","sources":["../../../src/components/post-table.ts"],"names":[],"mappings":";;;;;;;;;;;;;IAEA;QAAuC,6BAAK;QAA5C;;QAEA,CAAC;QAAD,gBAAC;IAAD,CAAC,AAFD,CAAuC,eAAK,GAE3C","sourcesContent":["import Table from \"./table\";\r\n\r\nexport default class PostTable extends Table {\r\n\r\n}"]}

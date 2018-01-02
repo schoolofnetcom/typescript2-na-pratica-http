@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "amd",
+    "rootDir": "src",
+    "outDir": "public/js",
+    "sourceMap": true,
+    "inlineSources": true
+  },
+  "files": [
+    "src/test.ts",
+    "src/page/post-list-page.ts",
+    "src/page/post-new-page.ts"
+  ]
+}
